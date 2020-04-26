@@ -1,0 +1,18 @@
+@import "variables";
+html {
+    height: auto;
+    // overflow: hidden;
+}
+
+body {
+    // overflow: hidden;
+    box-sizing: inherit;
+    max-width: 100%;
+    font-family: "roboto";
+    // background-color: red;
+}
+
+main {
+    width: 80%;
+    height: auto;
+}

@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);html {
+  height: auto;
+}
+
+body {
+  box-sizing: inherit;
+  max-width: 100%;
+  font-family: "roboto";
+}
+
+main {
+  width: 80%;
+  height: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.color-black {
+  color: black;
+}
+
+.align-center {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.screen-center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.not-selectable {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+               supported by Chrome, Opera and Firefox */
+}
+
+.hero-image {
+  margin-top: 20%;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+}
+
+.shadow-sm {
+  box-shadow: none !important;
+}
+
+.navbar-light .navbar-toggler {
+  color: black;
+  border: none !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+nav {
+  margin-top: 10%;
+}
+
+.navbar-brand {
+  font-weight: 800;
+  font-size: 150%;
+}
+
+.vragen {
+  width: 100%;
+  height: auto;
+}
+
